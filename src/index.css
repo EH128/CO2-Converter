@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.container {
+  border: 2px solid rgb(19, 182, 19);
+  margin: 50px auto;
+  max-width: 80%;
+  min-height: 40vh;
+  padding: 3% 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.title {
+  color: rgb(40, 148, 219);
+}
+.description {
+  border: 3px solid rgb(41, 103, 218);
+  border-radius: 5px;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px;
+  font-weight: 500;
+  width: 100%;
+}
+.inputContainer {
+  display: flex;
+  margin: 10px;
+  border: 3px solid rgb(25, 172, 57);
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+.label {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.field {
+  margin-right: 20px;
+}
+.field:last-of-type {
+  margin-right: 0;
+}
+.input {
+  padding: 2px 5px;
+  font-size: 1.1em;
+  border-radius: 3px;
+  outline: none;
+}
+.error {
+  border: 3px solid rgb(228, 57, 27);
+  border-radius: 5px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px;
+  font-weight: 500;
+  width: 100%;
+}
+.show {
+  border: 3px solid rgb(41, 103, 218);
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 1%;
+  color: rgb(61, 32, 223);
+  margin: 10px;
+  text-align: center;
+}
+.amount {
+  color: rgb(18, 194, 62);
+}
