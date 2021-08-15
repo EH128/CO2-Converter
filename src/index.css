@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  border: 2px solid rgb(19, 182, 19);
+  border: 5px solid rgb(19, 182, 19);
   margin: 50px auto;
   max-width: 80%;
   min-height: 40vh;
